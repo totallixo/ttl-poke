@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(238, 60, 60);
+  background-image: url('foto.png');
+  background-size: 100%;
+  color: aliceblue;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: rgb(0, 0, 0) 10px 10px;
+}
+
+.pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.card {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  min-width: 400px;
+  max-width: 400px;
+  border: 2px rgb(177, 173, 173) solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.foto{
+  max-width: 30%;
+  border-radius: 50%;
+  border: 7px white solid;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
