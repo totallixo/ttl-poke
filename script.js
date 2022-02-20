@@ -62,6 +62,7 @@ const pokeData = [
   {
     nome: 'Drifloon',
     nick: 'Prd do Balão',
+    type: 'Ghost - Flying',
     img: 'https://archives.bulbagarden.net/media/upload/3/32/Spr_5b_425.png'
   },
 ];
