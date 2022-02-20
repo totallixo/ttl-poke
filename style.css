@@ -1,34 +1,41 @@
 body{
-  background-color: rgb(238, 60, 60);
-  background-image: url('foto.png');
+  background-color: #0a4366;
+/*   background-image: url('foto.png'); */
   background-size: 100%;
-  color: aliceblue;
+  color: rgb(192, 192, 192);
   font-family: 'Roboto Slab', serif;
-  text-shadow: rgb(0, 0, 0) 10px 10px;
 }
 
 .pokemons {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  
-  
+  justify-content:space-evenly
 }
 .card {
+  background-color: black;
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   min-width: 400px;
-  max-width: 400px;
+  min-height: 100px;
   border: 2px rgb(177, 173, 173) solid;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
-  align-items: center;
+  align-items:center;
+  justify-content: space-between;
+  flex-grow: 0.3;
+}
+
+.card:hover {
+  background-color: rgb(92, 91, 91);
+  min-height: 110px;
+  min-width: 410px;
+  transition: 0.4s;
 }
 
 .foto{
-  max-width: 30%;
+  max-width: 17%;
   border-radius: 50%;
   border: 7px white solid;
 }
@@ -38,3 +45,13 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+
+h1 {
+  color:#FFFFFF;
+  text-shadow: 7px 7px #000000;
+}
+
+a{
+  text-align: center;
+  
+};
