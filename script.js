@@ -107,7 +107,7 @@ function each () {
   })
 }
 
-window.onload = () => {
-  each();
+window.onload = async () => {
+  await each();
 };
 
