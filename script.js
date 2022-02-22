@@ -77,8 +77,21 @@ const div = document.querySelector('.pokemons')
 
 
 console.log(pokeData)
+console.log(` PARABENS VOCÊ ENCONTROU A:
 
-async function add ({ nome, nick, tipo, img }) {
+▄▄▄█████▓ ▒█████  ▄▄▄█████▓ ▄▄▄       ██▓        ██▓     ██▓▒██   ██▒ ▒█████  
+▓  ██▒ ▓▒▒██▒  ██▒▓  ██▒ ▓▒▒████▄    ▓██▒       ▓██▒    ▓██▒▒▒ █ █ ▒░▒██▒  ██▒
+▒ ▓██░ ▒░▒██░  ██▒▒ ▓██░ ▒░▒██  ▀█▄  ▒██░       ▒██░    ▒██▒░░  █   ░▒██░  ██▒
+░ ▓██▓ ░ ▒██   ██░░ ▓██▓ ░ ░██▄▄▄▄██ ▒██░       ▒██░    ░██░ ░ █ █ ▒ ▒██   ██░
+  ▒██▒ ░ ░ ████▓▒░  ▒██▒ ░  ▓█   ▓██▒░██████▒   ░██████▒░██░▒██▒ ▒██▒░ ████▓▒░
+  ▒ ░░   ░ ▒░▒░▒░   ▒ ░░    ▒▒   ▓▒█░░ ▒░▓  ░   ░ ▒░▓  ░░▓  ▒▒ ░ ░▓ ░░ ▒░▒░▒░ 
+    ░      ░ ▒ ▒░     ░      ▒   ▒▒ ░░ ░ ▒  ░   ░ ░ ▒  ░ ▒ ░░░   ░▒ ░  ░ ▒ ▒░ 
+  ░      ░ ░ ░ ▒    ░        ░   ▒     ░ ░        ░ ░    ▒ ░ ░    ░  ░ ░ ░ ▒  
+             ░ ░                 ░  ░    ░  ░       ░  ░ ░   ░    ░      ░ ░  
+                                                                              
+BOA SORTE`)
+
+function add ({ nome, nick, tipo, img }) {
   const section = document.createElement('section')
   section.className = 'card';
   const name = document.createElement('p')
