@@ -11,6 +11,12 @@ const pokeData = [
     type: 'Poison - Flying',
     img: 'https://archives.bulbagarden.net/media/upload/5/51/Spr_5b_169.png'
   },
+   {
+    nome: 'Ditto',
+    nick: 'Não escolhido ainda',
+    type: 'Normal',
+    img: 'https://archives.bulbagarden.net/media/upload/5/5f/Spr_5b_132.png',
+  },
   {
     nome: 'Mantine',
     nick: 'Claudia Arraia',
@@ -94,9 +100,9 @@ function add ({ nome, nick, tipo, img }) {
   return section;
   };
 
-function each () {
-  pokeData.forEach((element) => {
-    const data = {
+function async each () {
+ await pokeData.forEach((element) => {
+      const data = {
       nome: element.nome,
       nick: element.nick,
       tipo: element.type,
