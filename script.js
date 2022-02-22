@@ -71,6 +71,12 @@ const pokeData = [
     type: 'Ghost - Flying',
     img: 'https://archives.bulbagarden.net/media/upload/3/32/Spr_5b_426.png'
   },
+  {
+    nome: 'Shiinotic',
+    nick: 'PauDoMarcelo',
+    type: 'Grass - Fairy',
+    img: 'https://www.smogon.com/dex/media/sprites/xy/shiinotic.gif'
+  },
 ];
 
 const div = document.querySelector('.pokemons')
@@ -113,4 +119,13 @@ function each () {
 
 window.onload = async () => {
   await each();
+  console.log(`
+  ▄▄▄▄▀ ████▄    ▄▄▄▄▀ ██   █         █    ▄█     ▄  ████▄ 
+▀▀▀ █    █   █ ▀▀▀ █    █ █  █         █    ██ ▀▄   █ █   █ 
+   █    █   █     █    █▄▄█ █         █    ██   █ ▀  █   █ 
+  █     ▀████    █     █  █ ███▄      ███▄ ▐█  ▄ █   ▀████ 
+ ▀              ▀         █     ▀         ▀ ▐ █   ▀▄       
+                         █                     ▀           
+                        ▀                                  
+`)
 };
