@@ -112,8 +112,8 @@ function add ({ nome, nick, tipo, img }) {
   return section;
   };
 
-async function each () {
- await pokeData.forEach((element) => {
+function each () {
+  pokeData.forEach((element) => {
       const data = {
       nome: element.nome,
       nick: element.nick,
