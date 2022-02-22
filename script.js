@@ -54,10 +54,10 @@ const pokeData = [
     img: 'https://www.smogon.com/dex/media/sprites/xy/crabrawler.gif'
   },
   {
-    nome: 'Steene',
+    nome: 'Tsareena',
     nick: 'Bulbassaura',
     type: 'Grass',
-    img: 'https://www.smogon.com/dex/media/sprites/xy/steenee.gif'
+    img: 'https://www.smogon.com/dex/media/sprites/xy/tsareena.gif'
   },
   {
     nome: 'Marowak (Alolan)',
@@ -66,10 +66,10 @@ const pokeData = [
     img: 'https://www.smogon.com/dex/media/sprites/xy/marowak-alola.gif'
   },
   {
-    nome: 'Drifloon',
+    nome: 'Drifblim',
     nick: 'Prd do Balão',
     type: 'Ghost - Flying',
-    img: 'https://archives.bulbagarden.net/media/upload/3/32/Spr_5b_425.png'
+    img: 'https://archives.bulbagarden.net/media/upload/3/32/Spr_5b_426.png'
   },
 ];
 
@@ -78,8 +78,7 @@ const div = document.querySelector('.pokemons')
 
 console.log(pokeData)
 
-function add ({ nome, nick, tipo, img }) {
-  console.log(nome)
+async function add ({ nome, nick, tipo, img }) {
   const section = document.createElement('section')
   section.className = 'card';
   const name = document.createElement('p')
