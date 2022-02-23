@@ -3,79 +3,79 @@ const pokeData = [
     nome: 'Hauter',
     nick: 'Luftal',
     type: 'Ghost - Poison',
-    img: '/imgs/haunter.png',
+    img: './imgs/haunter.png',
   },
   {
     nome: 'Crobat',
     nick: 'Aedes Egito',
     type: 'Poison - Flying',
-    img: '/imgs/crowbat.png'
+    img: './imgs/crowbat.png'
   },
   {
     nome: 'Ditto',
     nick: 'Não escolhido ainda',
     type: 'Normal',
-    img: '/imgs/ditto.png'
+    img: './imgs/ditto.png'
   },
   {
     nome: 'Mantine',
     nick: 'Claudia Arraia',
     type: 'Water - Flying',
-    img: '/imgs/mantine.png'
+    img: './imgs/mantine.png'
   },
   {
     nome: 'Noibat',
     nick: 'Punhetão',
     type: 'Flying - Dragon',
-    img: '/imgs/noibat.gif'
+    img: './imgs/noibat.gif'
   },
   {
     nome: 'Espeon',
     nick: 'Churrasquinho',
     type: 'Psychic',
-    img: '/imgs/espion.png'
+    img: './imgs/espion.png'
   },
   {
     nome: 'Shellder',
     nick: 'Cleiton',
     type: 'Water',
-    img: '/imgs/shelder.png'
+    img: './imgs/shelder.png'
   },
   {
     nome: 'Arbok',
     nick: 'Ekandidiase',
     type: 'Poison',
-    img: '/imgs/arbok.png'
+    img: './imgs/arbok.png'
   },
   {
     nome: 'Crabrawler',
     nick: 'Lu Punhetinha',
     type: 'Fighting',
-    img: '/imgs/crabrawler.gif'
+    img: './imgs/crabrawler.gif'
   },
   {
     nome: 'Tsareena',
     nick: 'Bulbassaura',
     type: 'Grass',
-    img: '/imgs/tsareena.gif'
+    img: './imgs/tsareena.gif'
   },
   {
     nome: 'Marowak (Alolan)',
     nick: 'Cubona',
     type: 'Fire - Ghost',
-    img: '/imgs/marowak-alola.gif'
+    img: './imgs/marowak-alola.gif'
   },
   {
     nome: 'Drifblim',
     nick: 'Prd do Balão',
     type: 'Ghost - Flying',
-    img: '/imgs/driff.png'
+    img: './imgs/driff.png'
   },
   {
     nome: 'Shiinotic',
     nick: 'PauDoMarcelo',
     type: 'Grass - Fairy',
-    img: '/imgs/shiinotic.gif'
+    img: './imgs/shiinotic.gif'
   },
 ];
 
