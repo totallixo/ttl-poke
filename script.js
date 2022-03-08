@@ -13,7 +13,7 @@ const pokeData = [
   },
   {
     nome: 'Ditto',
-    nick: 'Não escolhido ainda',
+    nick: 'Jarbas',
     type: 'Normal',
     img: './imgs/ditto.png'
   },
@@ -36,6 +36,12 @@ const pokeData = [
     img: './imgs/espion.png'
   },
   {
+    nome: 'Starmie',
+    nick: 'PT',
+    type: 'Water - Psychic',
+    img: './imgs/starmie.png',
+  },
+  {
     nome: 'Shellder',
     nick: 'Cleiton',
     type: 'Water',
@@ -48,10 +54,22 @@ const pokeData = [
     img: './imgs/arbok.png'
   },
   {
+    nome: 'Marowak (Alolan)',
+    nick: 'Cubona',
+    type: 'Fire - Ghost',
+    img: './imgs/marowak-alola.gif'
+  },
+  {
     nome: 'Crabrawler',
     nick: 'Lu Punhetinha',
     type: 'Fighting',
     img: './imgs/crabrawler.gif'
+  },
+  {
+    nome: 'Shiinotic',
+    nick: 'PauDoMarcelo',
+    type: 'Grass - Fairy',
+    img: './imgs/shiinotic.gif'
   },
   {
     nome: 'Tsareena',
@@ -60,22 +78,16 @@ const pokeData = [
     img: './imgs/tsareena.gif'
   },
   {
-    nome: 'Marowak (Alolan)',
-    nick: 'Cubona',
-    type: 'Fire - Ghost',
-    img: './imgs/marowak-alola.gif'
+    nome: 'Goomy',
+    nick: 'Bukkakemon',
+    type: 'Water - Psychic',
+    img: './imgs/goomy.gif',
   },
   {
     nome: 'Drifblim',
     nick: 'Prd do Balão',
     type: 'Ghost - Flying',
     img: './imgs/driff.png'
-  },
-  {
-    nome: 'Shiinotic',
-    nick: 'PauDoMarcelo',
-    type: 'Grass - Fairy',
-    img: './imgs/shiinotic.gif'
   },
 ];
 
