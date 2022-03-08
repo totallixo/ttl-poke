@@ -2,7 +2,7 @@ const pokeData = [
   {
     nome: 'Hauter',
     nick: 'Luftal',
-    type: ['/icons/Ghost.wepb', '/icons/Poison.wepb'],
+    type: '/icons/Ghost.wepb',
     img: './imgs/haunter.png',
   },
   {
