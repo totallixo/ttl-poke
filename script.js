@@ -2,7 +2,7 @@ const pokeData = [
   {
     nome: 'Hauter',
     nick: 'Luftal',
-    type: 'Ghost - Poison',
+    type: ['/icons/Ghost.wepb', '/icons/Poison.wepb'],
     img: './imgs/haunter.png',
   },
   {
@@ -103,8 +103,9 @@ function add ({ nome, nick, tipo, img }) {
   const nickName = document.createElement('p')
   nickName.innerHTML = nick;
   nickName.className = 'nick';
-  const type = document.createElement('p')
-  type.innerHTML = tipo;
+  const type = document.createElement('img')
+  type.src = tipo;
+  type.className = 'type';
   const imagem = document.createElement('img')
   imagem.src = img;
 
