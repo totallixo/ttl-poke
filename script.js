@@ -110,6 +110,7 @@ const div = document.querySelector('.pokemons')
 function add ({ nome, nick, tipo1, tipo2, img }) {
   console.log(nome)
   const section = document.createElement('section')
+  const typesSec = document.createElement('section')
   section.className = 'card';
   const name = document.createElement('p')
   name.className = 'name';
@@ -128,9 +129,10 @@ function add ({ nome, nick, tipo1, tipo2, img }) {
 
   section.appendChild(nickName)
   section.appendChild(name)
-  section.appendChild(type)
+  typesSec.appendChild(type1)
+  typesSec.appendChild(type2)
   section.appendChild(imagem)
-  return section;
+  return (section , typesSec)
   };
 const a = ''
 function each () {
