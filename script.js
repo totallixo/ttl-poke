@@ -73,6 +73,7 @@ const pokeData = [
     nome: 'Crabrawler',
     nick: 'Lu Punhetinha',
     type1: './icons/Fighting.webp',
+    type2: '',
     img: './imgs/crabrawler.gif'
   },
   {
@@ -132,7 +133,7 @@ function add ({ nome, nick, tipo1, tipo2, img }) {
   typesSec.appendChild(type1)
   typesSec.appendChild(type2)
   section.appendChild(imagem)
-  return (section , typesSec)
+  return [section , typesSec]
   };
 const a = ''
 function each () {
