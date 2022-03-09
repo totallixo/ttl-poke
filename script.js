@@ -118,7 +118,7 @@ function add ({ nome, nick, tipo1, tipo2, img }) {
   nickName.innerHTML = nick;
   nickName.className = 'nick';
   const type1 = document.createElement('img')
-  type.src = tipo1;
+  type1.src = tipo1;
   type1.className = 'type';
   const type2 = document.createElement('img')
   type2.src = tipo2;
